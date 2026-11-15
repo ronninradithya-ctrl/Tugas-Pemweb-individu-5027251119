@@ -137,3 +137,16 @@ PASS PUT nama kosong -> 400
 PASS DELETE /products/:id -> 200
 PASS DELETE id tidak ada -> 404
 ```
+
+
+
+
+<img width="1872" height="910" alt="pemweb 2" src="https://github.com/user-attachments/assets/b01c5420-32e2-4999-8b0a-bd7a1df58090" />
+<img width="1446" height="870" alt="pemweb9" src="https://github.com/user-attachments/assets/c726df59-0ddc-4cfc-bedb-923cf0bf0307" />
+<img width="1417" height="766" alt="pemweb8" src="https://github.com/user-attachments/assets/392995c3-2a40-4f19-8910-d732d28658d4" />
+<img width="1397" height="847" alt="pemweb7" src="https://github.com/user-attachments/assets/d3134d96-916f-4b35-a208-93dd489a4804" />
+<img width="1437" height="886" alt="pemweb6" src="https://github.com/user-attachments/assets/b05ce535-37d8-4e2a-956b-e6a3ffdc7426" />
+<img width="1567" height="932" alt="pemweb5" src="https://github.com/user-attachments/assets/bb12b8b4-f891-4c85-b5b5-753659911e34" />
+<img width="1580" height="917" alt="pemweb4" src="https://github.com/user-attachments/assets/583ae8c9-7b89-43ef-9b36-9f73b96c3735" />
+<img width="1856" height="882" alt="pemweb3" src="https://github.com/user-attachments/assets/699e74df-dd9d-4058-b102-a98011d5a333" />
+<img width="1846" height="917" alt="pemweb1" src="https://github.com/user-attachments/assets/431de1a1-6e3c-4e64-aa83-249b689ab66f" />
