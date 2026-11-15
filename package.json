@@ -11,10 +11,7 @@
     "prisma:migrate": "prisma migrate dev",
     "prisma:seed": "prisma db seed",
     "prisma:studio": "prisma studio",
-    "postinstall": "prisma generate",
-    "frontend:install": "npm --prefix frontend install",
-    "frontend:dev": "npm --prefix frontend run dev",
-    "build:frontend": "npm --prefix frontend install && npm --prefix frontend run build"
+    "postinstall": "prisma generate"
   },
   "engines": {
     "node": ">=18"

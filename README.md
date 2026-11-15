@@ -39,27 +39,6 @@ API CRUD produk menggunakan Express.js, Prisma ORM (v7), dan PostgreSQL. Data te
 
 Server berjalan pada `http://localhost:3000`.
 
-## Frontend React (Manajemen Produk)
-
-Halaman web ada di folder `frontend/` (React + Vite) dan memakai API di atas.
-
-**Mode pengembangan** (dua terminal):
-
-```bash
-npm start                  # terminal 1: backend di http://localhost:3000
-npm run frontend:install   # sekali saja
-npm run frontend:dev       # terminal 2: buka http://localhost:5173
-```
-
-**Satu server saja** (backend menyajikan hasil build):
-
-```bash
-npm run build:frontend
-npm start                  # buka http://localhost:3000
-```
-
-Komponen disusun dengan Atomic Design: `atoms` (Button, Field), `molecules` (Modal, ProductCard), `organisms` (ProductList, ProductFormModal, DeleteModal), dan `pages` (ProductPage).
-
 ## Struktur proyek
 
 ```text
@@ -73,7 +52,6 @@ src/
   lib/prisma.js                  # Prisma Client dengan adapter PostgreSQL
   routes/productRoutes.js        # definisi endpoint
   controllers/productController.js # logika CRUD memakai Prisma
-frontend/                        # aplikasi React (Vite)
 scripts/test-api.js              # pengujian HTTP otomatis (butuh database)
 docs/DAFTAR_ENDPOINT.md          # dokumentasi endpoint
 docs/LAPORAN_EVIDENCE.md         # skenario + bukti pengujian
