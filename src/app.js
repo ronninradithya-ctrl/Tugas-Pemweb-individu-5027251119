@@ -1,3 +1,4 @@
+const path = require('node:path');
 const express = require('express');
 const productRoutes = require('./routes/productRoutes');
 
@@ -5,6 +6,8 @@ const app = express();
 const port = Number(process.env.PORT) || 3000;
 
 app.use(express.json());
+// Menyajikan hasil build frontend React (frontend/dist) setelah `npm run build:frontend`
+app.use(express.static(path.join(__dirname, '..', 'frontend', 'dist')));
 app.use('/products', productRoutes);
 
 app.use((req, res) => {
